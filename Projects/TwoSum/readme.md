@@ -1,3 +1,5 @@
+# Prompt
+
 Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in a tuple / list (depending on your language) like so: (index1, index2).
 
 For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
@@ -8,4 +10,16 @@ Based on: http://oj.leetcode.com/problems/two-sum/
 
 ```javascript
 twoSum([1, 2, 3], 4) // returns [0, 2] or [2, 0]
+```
+
+## Submission
+
+```javascript
+function twoSum(numbers, target) {
+    for (var i = 0; i < numbers.length; i++) {
+        for (var t = i+1; t < numbers.length; t++) {
+            if (numbers[i] + numbers[t] == target) return [i, t] 
+        }
+    }
+}
 ```
