@@ -22,10 +22,9 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## Solved Katas
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [EndsWith](../Projcets/EndsWith)
+- [ReverseWords](../Projcets/ReverseWords)
+- [TwoSum](../Projcets/TwoSum)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
