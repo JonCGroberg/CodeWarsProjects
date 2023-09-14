@@ -15,9 +15,6 @@
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Solved Katas
@@ -25,8 +22,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [EndsWith](../Projcets/EndsWith)
 - [ReverseWords](../Projcets/ReverseWords)
 - [TwoSum](../Projcets/TwoSum)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
