@@ -19,9 +19,9 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## Solved Katas
 
-- [EndsWith](../Projcets/EndsWith)
-- [ReverseWords](../Projcets/ReverseWords)
-- [TwoSum](../Projcets/TwoSum)
+- [EndsWith](../Projects/EndsWith)
+- [ReverseWords](../Projects/ReverseWords)
+- [TwoSum](../Projects/TwoSum)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
