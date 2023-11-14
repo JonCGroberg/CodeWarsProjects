@@ -1,41 +1,57 @@
-<div id="top"></div>
+<div id="top" align="center">
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<h3 align="center">CodeWars Solutions</h3>
+<img src="https://www.codewars.com/users/JonCGroberg/badges/small">
 
-  <p align="center">
-    Library of my Codewars problem solutions with explanations and comments
-    <br />
-    <br />
-  </p>
 </div>
 
-## Examples
+  <div align="">
+    <h3 align="">CodeWars Solutions</h3>
+    <p align="">
+    Library of my Codewars problem solutions with explanations and comments
+    </p>
+  </div>
+  
+</div>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+## About the Ranking System
+
+> Kyu increase in diffuculty extremly fast requiring most kyu under 5 or 4 to but not only be correct but also have good time complexity
+
+| Completed | Score Awarded |
+| :-------- | ------------: |
+| 8 kyu     |             2 |
+| 7 kyu     |             3 |
+| 6 kyu     |             8 |
+| 5 kyu     |            21 |
+| 4 kyu     |            55 |
+| 3 kyu     |           149 |
+| 2 kyu     |           404 |
+| 1 kyu     |          1097 |
 
 ## Solved Katas
+
+### 7 Kyu
 
 - [EndsWith](./Projects/EndsWith)
 - [ReverseWords](./Projects/ReverseWords)
 - [TwoSum](./Projects/TwoSum)
+
+### 6 Kyu
+
 - [GoodVsEvil](./Projects/GoodVsEvil)
 - [HashtagGenerator](./Projects/HashtagGenerator)
 
+### 5 Kyu
+
+- [Rot13](./Projects/Rot13)
+
+### 4 Kyu
+
+- [StripComments](./Projects/StripComments)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
-
-
-
-
-
-
-
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joncgroberg
