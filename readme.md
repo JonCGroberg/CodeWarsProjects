@@ -34,22 +34,22 @@
 
 ### 7 Kyu
 
-- [EndsWith](./Projects/EndsWith)
-- [ReverseWords](./Projects/ReverseWords)
-- [TwoSum](./Projects/TwoSum)
+- [EndsWith](./Projects/EndsWith/readme.md)
+- [ReverseWords](./Projects/ReverseWords/readme.md)
+- [TwoSum](./Projects/TwoSum/readme.md)
 
 ### 6 Kyu
 
-- [GoodVsEvil](./Projects/GoodVsEvil)
-- [HashtagGenerator](./Projects/HashtagGenerator)
+- [GoodVsEvil](./Projects/GoodVsEvil/readme.md)
+- [HashtagGenerator](./Projects/HashtagGenerator/readme.md)
 
 ### 5 Kyu
 
-- [Rot13](./Projects/Rot13)
+- [Rot13](./Projects/Rot13/rot13.js)
 
 ### 4 Kyu
 
-- [StripComments](./Projects/StripComments)
+- [StripComments](./Projects/StripComments/readme.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
