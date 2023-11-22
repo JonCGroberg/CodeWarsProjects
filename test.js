@@ -1,13 +1,33 @@
-function findOdd(nums) {
-  const numCounter = {};
-  for (const num of nums) {
-    if (num in numCounter) numCounter[num]++;
-    else numCounter[num] = 1;
+function countSel(lst) {
+  let numbers = {};
+  for (let num of lst) {
+    if (numbers[num]) {
+      numbers[num]++;
+    } else {
+      numbers[num] = 1;
+    }
   }
-  console.log(numCounter);
-  for (const [key, value] of Object.entries(numCounter)) {
-    if (value % 2 != 0) return key;
-  }
-}
 
-console.log(findOdd([1, 2, 3, 4, 3, 4, 1, 2, 1]));
+  let totalNum = lst.length;
+  let numDifferentValues = Object.keys(numbers).length;
+  let numOccurOnce = Object.values(numbers).filter((num) => num === 1).length;
+
+  let maxCount = 0;
+  for (let num in numbers) {
+    if (numbers[num] > maxCount) {
+      maxCount = numbers[num];
+    }
+  }
+
+  let mostFrequentNums = Object.keys(numbers)
+    .filter((key) => numbers[key] === maxCount)
+    .map((num) => Number(num))
+    .sort((a, b) => a - b);
+
+  return [
+    totalNum,
+    numDifferentValues,
+    numOccurOnce,
+    [mostFrequentNums, maxCount],
+  ];
+}
