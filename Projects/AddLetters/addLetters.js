@@ -1,4 +1,4 @@
-function addLetters(...letters) {
+function adLetters(...letters) {
   if (letters.length === 0) return "z";
   let alphabet = "abcdefghijklmnopqrstuvwxyz";
   let resultIndex = 0;
@@ -12,4 +12,4 @@ function addLetters(...letters) {
   return alphabet[resultIndex - 1];
 }
 
-console.log(addLetters());
+console.log(adLetters());
