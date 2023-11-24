@@ -1,33 +1,15 @@
-function countSel(lst) {
-  let numbers = {};
-  for (let num of lst) {
-    if (numbers[num]) {
-      numbers[num]++;
-    } else {
-      numbers[num] = 1;
-    }
+function adLetters(...letters) {
+  if (letters.length === 0) return "z";
+  let alphabet = "abcdefghijklmnopqrstuvwxyz";
+  let resultIndex = 0;
+
+  for (let letter of letters) {
+    let letterIndex = alphabet.indexOf(letter) + 1;
+    resultIndex += letterIndex;
   }
+  if (resultIndex >= 26) resultIndex = resultIndex % 26;
 
-  let totalNum = lst.length;
-  let numDifferentValues = Object.keys(numbers).length;
-  let numOccurOnce = Object.values(numbers).filter((num) => num === 1).length;
-
-  let maxCount = 0;
-  for (let num in numbers) {
-    if (numbers[num] > maxCount) {
-      maxCount = numbers[num];
-    }
-  }
-
-  let mostFrequentNums = Object.keys(numbers)
-    .filter((key) => numbers[key] === maxCount)
-    .map((num) => Number(num))
-    .sort((a, b) => a - b);
-
-  return [
-    totalNum,
-    numDifferentValues,
-    numOccurOnce,
-    [mostFrequentNums, maxCount],
-  ];
+  return alphabet[resultIndex - 1];
 }
+
+console.log(adLetters());
